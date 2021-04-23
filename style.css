@@ -1,0 +1,13 @@
+select {
+  width: 100px;
+  height: 200px;
+  background: rgb(206, 220, 248);
+}
+
+option {
+  font-size: 14px;
+}
+
+option:hover {
+  background: rgb(253, 243, 155);
+}
