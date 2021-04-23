@@ -1,0 +1,21 @@
+<form action="https://karlisruru.000webhostapp.com/app/public/api.php" onsubmit="postSubmit.bind(this)(event, displayAvatar)">
+    <!-- bind this ir šī pati forma domāta -->
+    <select name="fields[]" id="" multiple>
+        <option value="firstname">firstname</option>
+        <option value="lastname">lastname</option>
+        <option value="years">years</option>
+        <option value="address">address</option>
+        <option value="picture">picture</option>
+        <option value="email">email</option>
+        <option value="phone">phone</option>
+    </select>
+    <input type="submit" value="request"> <!-- submit poga kā input elements, nevis button tagos poga -->
+
+</form>
+
+<div id="app">
+
+</div>
+
+<script src="request.js"></script>
+<script src="script.js"></script>
